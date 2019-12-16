@@ -3,7 +3,7 @@
 Quick and Simple.        
 When the INPUT with .ics extension is ready, PROCESS it with parser, and OUTPUT events one by one.
 
-## Differentiation and ChangeLog
+## Differentiation and ChangeLog 
 
 20191216 07:55 - Updated the ultimate and the only uses of this package. End of this SG-iCalendar world.        
 20191122 07:52 - Changed README into README.md.        
