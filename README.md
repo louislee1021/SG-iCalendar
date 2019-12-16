@@ -5,12 +5,13 @@ When the INPUT with .ics extension is ready, PROCESS it with parser, and OUTPUT 
 
 ## Differentiation and ChangeLog 
 
+20191216 10:23 - Updated Installation Command to include dev-master, get rid of stable minimum stability.        
 20191216 08:38 - Added Installation.        
 20191216 08:35 - The package name louis1021/SG-iCalendar is invalid, it should not contain uppercase characters. We suggest using louis1021/sg-i-calendar instead.        
 20191216 08:34 - Packagist require the submission first.        
 20191216 08:31 - Forget the FIRST Github webhook failure message for the connection to Packagist.        
 20191216 07:55 - Updated the ultimate and the only uses of this package. End of this SG-iCalendar world.        
-20191122 07:52 - Changed README into README.md.        
+20191216 07:52 - Changed README into README.md.        
 20191216 07:49 - Added composer.json with designated package name for conventional use.        
 20191216 07:47 - PHP 5.6.38 compatible.        
 20191216 07:45 - What? Yes. I forked.
@@ -18,7 +19,7 @@ When the INPUT with .ics extension is ready, PROCESS it with parser, and OUTPUT 
 ## Installation
 
 ```bash
-composer require louis1021/sg-i-calendar
+composer require louis1021/sg-i-calendar dev-master
 ```
 
 ## Overview
