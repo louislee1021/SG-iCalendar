@@ -1,5 +1,5 @@
 {
-    "name": "louis1021/SG-iCalendar",
+    "name": "louis1021/sg-i-calendar",
     "description": "When the INPUT with .ics extension is ready, PROCESS it with parser, and OUTPUT events one by one.",
     "type": "library",
     "require": {
