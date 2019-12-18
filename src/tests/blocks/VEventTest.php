@@ -1,4 +1,7 @@
 <?php
+
+use Louis1021\ICalendar\SG_iCal;
+
 require_once dirname(__FILE__).'/../common.php';
 require_once 'PHPUnit/Framework.php';
 

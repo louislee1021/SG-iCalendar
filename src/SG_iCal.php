@@ -1,5 +1,12 @@
 <?php
 
+namespace Louis1021\ICalendar;
+
+use Louis1021\ICalendar\blocks\SG_iCal_VCalendar;
+use Louis1021\ICalendar\blocks\SG_iCal_VEvent;
+use Louis1021\ICalendar\blocks\SG_iCal_VTimeZone;
+use Louis1021\ICalendar\helpers\SG_iCal_Parser;
+
 define('SG_ICALREADER_VERSION', '0.7.0');
 
 /**

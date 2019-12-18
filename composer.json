@@ -12,5 +12,10 @@
             "email": "louis@at-creative.com"
         }
     ],
-    "minimum-stability": "dev"
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Louis1021\\ICalendar\\": "src/"
+        }
+    }
 }

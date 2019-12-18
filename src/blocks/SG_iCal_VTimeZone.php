@@ -1,5 +1,11 @@
 <?php // BUILD: Remove line
 
+namespace Louis1021\ICalendar\blocks;
+
+use DateTime;
+use DateTimeZone;
+use Louis1021\ICalendar\helpers\SG_iCal_Freq;
+
 /**
  * The wrapper for vtimezones. Stores the timezone-id and the setup for
  * daylight savings and standard time.

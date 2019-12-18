@@ -1,5 +1,10 @@
 <?php // BUILD: Remove line
 
+namespace Louis1021\ICalendar\blocks;
+
+use ArrayIterator;
+use IteratorAggregate;
+
 /**
  * The wrapper for the main vcalendar data. Used instead of ArrayObject
  * so you can easily query for title and description.

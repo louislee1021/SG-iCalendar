@@ -1,5 +1,7 @@
 <?php // BUILD: Remove line
 
+namespace Louis1021\ICalendar\helpers;
+
 /**
  * A class for calculating how many seconds a duration-string is
  *

@@ -1,5 +1,9 @@
 <?php // BUILD: Remove line
 
+namespace Louis1021\ICalendar\helpers;
+
+use Louis1021\ICalendar\SG_iCal;
+
 class SG_iCal_Parser {
 	/**
 	 * Fetches $url and passes it on to be parsed

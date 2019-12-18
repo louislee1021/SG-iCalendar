@@ -1,4 +1,11 @@
-<?php // BUILD: Remove line
+<?php
+
+namespace Louis1021\ICalendar\helpers;
+
+use ArrayAccess;
+use ArrayIterator;
+use Countable;
+use IteratorAggregate;
 
 /**
  * A class for storing a single (complete) line of the iCal file.

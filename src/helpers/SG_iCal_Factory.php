@@ -1,5 +1,13 @@
 <?php // BUILD: Remove line
 
+namespace Louis1021\ICalendar\helpers;
+
+use ArrayObject;
+use Louis1021\ICalendar\blocks\SG_iCal_VCalendar;
+use Louis1021\ICalendar\blocks\SG_iCal_VEvent;
+use Louis1021\ICalendar\blocks\SG_iCal_VTimeZone;
+use Louis1021\ICalendar\SG_iCal;
+
 /**
  * A simple Factory for converting a section/data pair into the
  * corrosponding block-object. If the section isn't known a simple

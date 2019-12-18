@@ -1,5 +1,13 @@
 <?php // BUILD: Remove line
 
+namespace Louis1021\ICalendar\blocks;
+
+use Louis1021\ICalendar\helpers\SG_iCal_Duration;
+use Louis1021\ICalendar\helpers\SG_iCal_Freq;
+use Louis1021\ICalendar\helpers\SG_iCal_Line;
+use Louis1021\ICalendar\helpers\SG_iCal_Recurrence;
+use Louis1021\ICalendar\SG_iCal;
+
 /**
  * The wrapper for vevents. Will reveal a unified and simple api for
  * the events, which include always finding a start and end (except

@@ -1,6 +1,10 @@
 <?php
 
+use Louis1021\ICalendar\helpers\SG_iCal_Query;
+use Louis1021\ICalendar\SG_iCalReader;
+
 require_once('../SG_iCal.php');
+
 
 function dump_t($x) {
 	echo "<pre>".print_r($x,true)."</pre>";
@@ -17,6 +21,8 @@ $evts = $ical->getEvents();
 
 $data = array();
 foreach($evts as $id => $ev) {
+
+	echo "<pre>"; var_dump($ev); echo "</pre>";
 	$jsEvt = array(
 		"id" => ($id+1),
 		"title" => $ev->getProperty('summary'),

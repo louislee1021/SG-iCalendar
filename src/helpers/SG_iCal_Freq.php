@@ -1,5 +1,7 @@
 <?php // BUILD: Remove line
 
+namespace Louis1021\ICalendar\helpers;
+
 /**
  * A class to store Frequency-rules in. Will allow a easy way to find the
  * last and next occurrence of the rule.
@@ -75,8 +77,8 @@ class SG_iCal_Freq {
 
 		//set until, and cache
 		if( isset($this->rules['count']) ) {
-
-			$cache[$ts] = $ts = $this->start;
+			$ts = $this->start;
+			$cache[$ts] = $ts;
 			for($n=1; $n < $this->rules['count']; $n++) {
 				$ts = $this->findNext($ts);
 				$cache[$ts] = $ts;
@@ -326,7 +328,7 @@ class SG_iCal_Freq {
 	 * @param int $offset
 	 * @return int
 	 */
-	public function findEndOfPeriod($offset) {
+	public function findEndOfPeriod($offset = null) {
 		return $this->findStartingPoint($offset, 1);
 	}
 

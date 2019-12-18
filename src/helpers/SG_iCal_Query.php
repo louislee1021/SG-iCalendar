@@ -1,5 +1,11 @@
 <?php // BUILD: Remove line
 
+namespace Louis1021\ICalendar\helpers;
+
+use Exception;
+use Louis1021\ICalendar\SG_iCalReader;
+use Louis1021\ICalendar\blocks\SG_iCal_VEvent;
+
 /**
  * A collection of functions to query the events in a calendar.
  *

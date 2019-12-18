@@ -5,6 +5,7 @@ When the INPUT with .ics extension is ready, PROCESS it with parser, and OUTPUT 
 
 ## Differentiation and ChangeLog 
 
+20191218 21:10 - Added Namespace    
 20191216 10:23 - Updated Installation Command to include dev-master, get rid of stable minimum stability.        
 20191216 08:38 - Added Installation.        
 20191216 08:35 - The package name louis1021/SG-iCalendar is invalid, it should not contain uppercase characters. We suggest using louis1021/sg-i-calendar instead.        
@@ -27,22 +28,27 @@ composer require louis1021/sg-i-calendar dev-master
 A simple and fast iCal parser.
 -------------------------------------------------------------------------------
 
-http://github.com/fangel/SG-iCalendar
-With massive help from http://github.com/tpruvot/PHP-iCal
-and http://github.com/xonev/SG-iCalendar
+http://github.com/fangel/SG-iCalendar        
+With massive help from http://github.com/tpruvot/PHP-iCal        
+and http://github.com/xonev/SG-iCalendar        
 -------------------------------------------------------------------------------
 
-A simple example :
+```php
+ // A simple example :
  $ical = new SG_iCalReader( "./basic.ics" );
  //or
  $ical = new SG_iCalReader( "http://example.com/calendar.ics" );
  foreach( $ical->getEvents() As $event ) {
    // Do stuff with the event $event
  }
+```
 
 To check unit tests with phpunit, goto tests/ directory and :
- phpunit AllTests
- phpunit helpers/FreqTest
+
+```bash
+phpunit AllTests
+phpunit helpers/FreqTest
+```
 
 -------------------------------------------------------------------------------
 CHANGELOG :
