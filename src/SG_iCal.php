@@ -134,8 +134,3 @@ class SG_iCal {
 		$this->events[] = $event;
 	}
 }
-
-/**
- * For legacy reasons, we keep the name SG_iCalReader..
- */
-class SG_iCalReader extends SG_iCal {}
