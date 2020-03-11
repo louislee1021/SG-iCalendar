@@ -43,7 +43,7 @@ class SG_iCal_Duration {
 			// Invalid duration!
 		}
 
-		$dir = ($duration{0} == '-') ? -1 : 1;
+		$dir = ($duration[0] == '-') ? -1 : 1;
 
 		$this->dur = $dir * $ts;
 	}
